@@ -1,0 +1,64 @@
+
+# 2025-11-22 13:33:35.026636
++Code the following app
++```
++Create a fun, addictive, mobile-friendly Farcaster mini-app game called "Bouncy Banana Barrel".
++
++Game concept (physics-based launcher):
++- Player launches a banana projectile from the left side of the screen using touch/swipe: drag finger to set angle and power (like Angry Birds).
++- Banana flies with realistic physics: gravity pulls it down, bounces elastically off randomly placed obstacles (floating platforms, walls, bumpers).
++- Goal: Land the banana inside a glowing barrel target at the right/bottom of the screen. Perfect center = bonus points!
++- If it lands in barrel: WIN with confetti explosion. Miss: retry with "Relaunch".
++- Use Matter.js library (via CDN) for pro physics: bouncy collisions, rotation, friction.
++
++Obstacles and levels:
++- Level 1: Few simple platforms.
++- Auto-progress: After win, add more obstacles (10 levels max, then endless mode).
++- Banana peels trail behind for visual fun.
++
++Features:
++- Clean, vibrant design: Yellow banana emoji/graphic, wooden barrel, crypto-themed obstacles (e.g., coin bumpers, whale walls). Mobile-first, full-screen canvas.
++- Power meter + angle indicator during drag.
++- Score: Points = 1000 - (bounces * 100) + (distance bonus). Track high score and streak in localStorage.
++- "Next Level" / "Endless Mode" buttons.
++- Win screen: Big "SHARE ON FARCASTER" button that auto-generates cast: "🍌 BOUNCED my banana into the barrel in X bounces! Beat my score? Play Bouncy Banana Barrel → [your-miniapp-link] #farcaster #banana #degen"
++- Optional wallet connect (Warpcast/WalletConnect): Include @farcaster handle in share.
++- Sound effects: Boing on bounce, splash on win (Web Audio API).
++- Fast, lightweight, instantly playable in Warpcast.
++
++Generate full standalone HTML + CSS + JS code (include Matter.js CDN), ready to deploy as Base Mini App with farcaster.json verification.
++```
++
++Generate an app logo and update the app metadata title and description.
+
+# 2025-11-22 13:33:35.027111
++Code the following app
++```
++Create a fun, addictive, mobile-friendly Farcaster mini-app game called "Bouncy Banana Barrel".
++
++Game concept (physics-based launcher):
++- Player launches a banana projectile from the left side of the screen using touch/swipe: drag finger to set angle and power (like Angry Birds).
++- Banana flies with realistic physics: gravity pulls it down, bounces elastically off randomly placed obstacles (floating platforms, walls, bumpers).
++- Goal: Land the banana inside a glowing barrel target at the right/bottom of the screen. Perfect center = bonus points!
++- If it lands in barrel: WIN with confetti explosion. Miss: retry with "Relaunch".
++- Use Matter.js library (via CDN) for pro physics: bouncy collisions, rotation, friction.
++
++Obstacles and levels:
++- Level 1: Few simple platforms.
++- Auto-progress: After win, add more obstacles (10 levels max, then endless mode).
++- Banana peels trail behind for visual fun.
++
++Features:
++- Clean, vibrant design: Yellow banana emoji/graphic, wooden barrel, crypto-themed obstacles (e.g., coin bumpers, whale walls). Mobile-first, full-screen canvas.
++- Power meter + angle indicator during drag.
++- Score: Points = 1000 - (bounces * 100) + (distance bonus). Track high score and streak in localStorage.
++- "Next Level" / "Endless Mode" buttons.
++- Win screen: Big "SHARE ON FARCASTER" button that auto-generates cast: "🍌 BOUNCED my banana into the barrel in X bounces! Beat my score? Play Bouncy Banana Barrel → [your-miniapp-link] #farcaster #banana #degen"
++- Optional wallet connect (Warpcast/WalletConnect): Include @farcaster handle in share.
++- Sound effects: Boing on bounce, splash on win (Web Audio API).
++- Fast, lightweight, instantly playable in Warpcast.
++
++Generate full standalone HTML + CSS + JS code (include Matter.js CDN), ready to deploy as Base Mini App with farcaster.json verification.
++```
++
++Generate an app logo and update the app metadata title and description.

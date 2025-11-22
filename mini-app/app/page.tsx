@@ -3,7 +3,6 @@ import { description, title } from "@/lib/metadata";
 import { useState, useEffect } from "react";
 import { generateMetadata } from "@/lib/farcaster-embed";
 
-export { generateMetadata };
 
 export default function Home() {
   const [choice, setChoice] = useState<string | null>(null);

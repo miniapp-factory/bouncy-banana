@@ -86,3 +86,111 @@
 +- Start
 +- Level
 +- Exit
+
+# 2025-11-22 14:06:13.420064
++Create a super fun, addictive, mobile-first Farcaster mini-app game called **"Bouncy Banana Barrel"**.
++
++Core gameplay (Angry Birds-style physics launcher):
++- The player drags and releases from the left side of the screen to launch a yellow banana projectile.
++- Use Matter.js (loaded from CDN) for realistic bouncy physics: gravity, elastic collisions, rotation, and a little friction.
++- The banana leaves a funny trail of tiny banana peels behind it.
++- Goal: land the banana inside a glowing wooden barrel placed somewhere on the right/bottom of the screen.
++- Perfect center hit = extra bonus points!
++- On win → huge confetti explosion + victory screen.
++- On miss → simple "Relaunch" button.
++
++Main Menu (first screen the player sees):
++A beautiful full-screen start menu with three big buttons:
++1. START → begins at the highest unlocked level (or Level 1 if nothing unlocked)
++2. SELECT LEVEL → shows only the levels the player has already completed (Level 1 to max 10 + Endless Mode if unlocked)
++3. EXIT → closes the mini-app (window.close() or friendly message)
++
++Levels & Progression:
++- 10 hand-crafted levels with increasing difficulty (more platforms, moving bumpers, crypto-themed obstacles like golden coins, whale walls, etc.).
++- After beating Level 10 → unlock Endless Mode (randomly generated obstacles forever).
++- Progress, high scores, and current streak saved in localStorage.
++
++Visual & Audio:
++- Vibrant, colorful, cartoonish design (sky background, wooden barrel, big yellow banana).
++- Power + angle indicator while dragging.
++- Score formula: 1000 − (bounces × 100) + distance bonus.
++- Fun sound effects: "boing" on every bounce, triumphant "splash" when landing in the barrel (use Web Audio API or simple <audio> tags).
++- Confetti on win (use canvas-confetti).
++
++Win / Share Screen:
++After winning a level show:
++- Your score and bounces
++- "Next Level" button (or "Play Endless" when appropriate)
++- Huge "SHARE ON FARCASTER" button that auto-generates a perfect cast:
++  "Just bounced my banana into the barrel in only X bounces! 🍌
++  Score: XXXX 🔥 Beat me if you can!
++  Play Bouncy Banana Barrel → [your-miniapp-url]
++  #BouncyBanana #farcaster #degen"
++- Optional: if wallet is connected via Warpcast/WalletConnect, automatically add the player’s @farcaster handle.
++
++Technical requirements:
++- Single standalone HTML file (HTML + CSS + JS inline).
++- Include Matter.js via CDN.
++- Fully mobile-friendly, touch-only controls, no mouse needed.
++- Works instantly inside Warpcast (Base Mini App).
++- Include the necessary farcaster.json metadata in a comment at the top so it can be deployed as a verified Farcaster mini-app.
++- Fast loading, lightweight, no external dependencies except Matter.js CDN and optional canvas-confetti.
++
++Make everything smooth, juicy, and ridiculously fun! 🍌✨
+
+# 2025-11-22 14:06:13.429001
++Create a super fun, addictive, mobile-first Farcaster mini-app game called **"Bouncy Banana Barrel"**.
++
++Core gameplay (Angry Birds-style physics launcher):
++- The player drags and releases from the left side of the screen to launch a yellow banana projectile.
++- Use Matter.js (loaded from CDN) for realistic bouncy physics: gravity, elastic collisions, rotation, and a little friction.
++- The banana leaves a funny trail of tiny banana peels behind it.
++- Goal: land the banana inside a glowing wooden barrel placed somewhere on the right/bottom of the screen.
++- Perfect center hit = extra bonus points!
++- On win → huge confetti explosion + victory screen.
++- On miss → simple "Relaunch" button.
++
++Main Menu (first screen the player sees):
++A beautiful full-screen start menu with three big buttons:
++1. START → begins at the highest unlocked level (or Level 1 if nothing unlocked)
++2. SELECT LEVEL → shows only the levels the player has already completed (Level 1 to max 10 + Endless Mode if unlocked)
++3. EXIT → closes the mini-app (window.close() or friendly message)
++
++Levels & Progression:
++- 10 hand-crafted levels with increasing difficulty (more platforms, moving bumpers, crypto-themed obstacles like golden coins, whale walls, etc.).
++- After beating Level 10 → unlock Endless Mode (randomly generated obstacles forever).
++- Progress, high scores, and current streak saved in localStorage.
++
++Visual & Audio:
++- Vibrant, colorful, cartoonish design (sky background, wooden barrel, big yellow banana).
++- Power + angle indicator while dragging.
++- Score formula: 1000 − (bounces × 100) + distance bonus.
++- Fun sound effects: "boing" on every bounce, triumphant "splash" when landing in the barrel (use Web Audio API or simple <audio> tags).
++- Confetti on win (use canvas-confetti).
++
++Win / Share Screen:
++After winning a level show:
++- Your score and bounces
++- "Next Level" button (or "Play Endless" when appropriate)
++- Huge "SHARE ON FARCASTER" button that auto-generates a perfect cast:
++  "Just bounced my banana into the barrel in only X bounces! 🍌
++  Score: XXXX 🔥 Beat me if you can!
++  Play Bouncy Banana Barrel → [your-miniapp-url]
++  #BouncyBanana #farcaster #degen"
++- Optional: if wallet is connected via Warpcast/WalletConnect, automatically add the player’s @farcaster handle.
++
++Technical requirements:
++- Single standalone HTML file (HTML + CSS + JS inline).
++- Include Matter.js via CDN.
++- Fully mobile-friendly, touch-only controls, no mouse needed.
++- Works instantly inside Warpcast (Base Mini App).
++- Include the necessary farcaster.json metadata in a comment at the top so it can be deployed as a verified Farcaster mini-app.
++- Fast loading, lightweight, no external dependencies except Matter.js CDN and optional canvas-confetti.
++
++Make everything smooth, juicy, and ridiculously fun! 🍌✨
+
+# 2025-11-22 14:07:19.794884
++apply changes
+
+# 2025-11-22 14:07:19.795402
++apply changes

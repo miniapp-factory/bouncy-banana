@@ -1,5 +1,6 @@
 "use client";
 import { description, title } from "@/lib/metadata";
+import Game from "@/components/game";
 import { useState, useEffect } from "react";
 import { generateMetadata } from "@/lib/farcaster-embed";
 
@@ -29,7 +30,7 @@ export default function Home() {
           <p>[3] Exit</p>
         </div>
       )}
-      {choice === 'start' && <p className="mt-4">Starting game...</p>}
+      {choice === 'start' && <Game />}
       {choice === 'level' && <p className="mt-4">Choose level...</p>}
       {choice === 'exit' && <p className="mt-4">Exiting...</p>}
     </main>
